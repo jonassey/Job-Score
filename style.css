@@ -1,0 +1,75 @@
+/* Set background color for the body */
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+/* Apply styles to the h1 element */
+h1 {
+  color: #333;
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* Apply styles to the labels */
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Apply styles to the input fields */
+input[type="text"] {
+  width: 300px;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Apply styles to the search button */
+#search-btn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Apply styles to the job listings div */
+#job-listings {
+  margin-top: 20px;
+}
+
+/* Apply styles to the job listing elements */
+.job-listing {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+/* Apply styles to the job title */
+.job-listing h2 {
+  color: #333;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+/* Apply styles to the job location */
+.job-listing p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Apply styles to the cost of living div */
+.cost-of-living {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Apply styles to the result div */
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+}
