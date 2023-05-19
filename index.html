@@ -6,24 +6,24 @@
 </head>
 <body>
   <h1>Job Search</h1>
-  <div>
-    <label for="job-title">Job Title:</label>
-    <input type="text" id="job-title" />
+  <div class="form-container">
+    <div>
+      <label for="job-title">Job Title:</label>
+      <input type="text" id="job-title" />
+    </div>
+    <div>
+      <label for="job-location">Job Location:</label>
+      <input type="text" id="job-location" />
+    </div>
+    <div>
+      <label for="country">Country:</label>
+      <input type="text" id="country" />
+    </div>
+    <button id="search-btn">Search</button>
   </div>
-  <div>
-    <label for="job-location">Job Location:</label>
-    <input type="text" id="job-location" />
-  </div>
-  <div>
-    <label for="country">Country:</label>
-    <input type="text" id="country" />
-  </div>
-  <button id="search-btn">Search</button>
 
-  <h2></h2>
   <div id="job-listings"></div>
 
-  <h2></h2>
   <div id="result"></div>
 
   <script src="popup.js"></script>
