@@ -43,8 +43,6 @@ function searchJobsAndCostOfLiving() {
           const jobTitle = jobTitleElem ? jobTitleElem.textContent : '';
           const jobLocationElem = jobs[i].getElementsByTagName('location')[0];
           const jobLocation = jobLocationElem ? jobLocationElem.textContent : '';
-          const jobSalaryElem = jobs[i].getElementsByTagName('salary')[0];
-          const jobSalary = jobSalaryElem ? jobSalaryElem.textContent : '';
           const jobDescriptionElem = jobs[i].getElementsByTagName('snippet')[0];
           const jobDescription = jobDescriptionElem ? jobDescriptionElem.textContent : '';
           const jobUrlElem = jobs[i].getElementsByTagName('url')[0];
@@ -54,11 +52,9 @@ function searchJobsAndCostOfLiving() {
             <div class="job-listing">
               <h2>${jobTitle}</h2>
               <p><strong>Location:</strong> ${jobLocation}</p>
-              <div class="cost-of-living" id="cost-of-living-${i}"></div>
-            </div>
-            <div class="job-listing">
               <p><strong>Description:</strong> ${jobDescription}</p>
               <p><a href="${jobUrl}" target="_blank">Apply Now</a></p>
+              <div class="cost-of-living" id="cost-of-living-${i}"></div>
             </div>
           `;
           jobListings.insertAdjacentHTML('beforeend', jobListing);
