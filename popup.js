@@ -14,7 +14,7 @@ function searchJobsAndCostOfLiving() {
   const proxyUrl = 'https://cors-anywhere.herokuapp.com/';
 
   // Send request to job search API using the proxy server
-  const jobApiUrl = `${proxyUrl}https://api.whatjobs.com/api/v1/jobs.xml?publisher=4365&user_ip=41.113.166.194&user_agent=Mozilla/5.0%20(Windows%20NT%2010.0;%20Win64;%20x64)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/112.0.0.0%20Safari/537.36&keyword=${jobTitle}&location=${jobLocation}&limit=&page=`;
+  const jobApiUrl = `${proxyUrl}https://api.whatjobs.com/api/v1/jobs.xml?publisher=4500&user_ip=41.113.166.194&user_agent=Mozilla/5.0%20(Windows%20NT%2010.0;%20Win64;%20x64)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/112.0.0.0%20Safari/537.36&keyword=${jobTitle}&location=${jobLocation}&limit=&page=`;
 
   fetch(jobApiUrl)
     .then(response => {
